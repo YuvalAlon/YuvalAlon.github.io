@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<p>Yuval Alon's photo album.</p>
+
+<div class="">
+    <h2></h2>
+    <p></p>
+    <table class="">
+
+        <tbody>
+            <tr>
+                <td><img src="/static/images/images.png" alt="raptors" width="350" height="300"></td>
+                <td><img src="/static/images/images5.png" alt="new orleans" width="350" height="300"></td>
+                <td><img src="/static/images/images3.png" alt="boston" width="350" height="300"></td>
+            </tr>
+            <tr>
+                <td><img src="/static/images/images4.jpg" alt="siakam" width="400" height="300"></td>
+                <td><img src="/static/images/images1.jpg" alt="zion" width="400" height="300"></td>
+                <td><img src="/static/images/images2.jpg" alt="kemba" width="400" height="300"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+{% endblock %}
